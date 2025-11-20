@@ -1,22 +1,22 @@
-# Python
-*.pyc
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-env/
-venv/
-ENV/
-*.egg-info/
-
 # Django
 *.log
 *.pot
+*.pyc
+__pycache__/
 local_settings.py
 db.sqlite3
 db.sqlite3-journal
 media/
+
+# Virtual Environment
+cv_website_env/
+venv/
+env/
+
+# Environment variables
+.env
+
+# Static files
 staticfiles/
 
 # IDE
@@ -24,17 +24,30 @@ staticfiles/
 .idea/
 *.swp
 *.swo
-*~
-
-# Environment variables
-.env
-.env.local
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Secrets - NEVER upload these!
-secrets.py
-*.key
-*.pem
+# Python
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
